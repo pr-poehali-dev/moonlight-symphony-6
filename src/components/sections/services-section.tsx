@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Тарифы
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Выберите свой план</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Домашний · 100 Мбит/с",
+              description: "Оптимально для семьи — стриминг, игры, видеозвонки без ограничений",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Турбо · 500 Мбит/с",
+              description: "Для тех, кто ценит скорость — работа из дома и умный дом",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Гига · 1 Гбит/с",
+              description: "Максимальная скорость — идеально для большого домохозяйства",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Бизнес",
+              description: "Корпоративные решения: статический IP, VPN, SLA и приоритетная поддержка",
               direction: "bottom",
             },
           ].map((service, i) => (
