@@ -4,33 +4,33 @@
 
 @layer base {
   :root {
-    /* Dark theme by default - matching origin */
-    --background: 0 0% 7%;
-    --foreground: 0 0% 96%;
+    /* Galaxy Net — тёмно-синий градиентный стиль */
+    --background: 222 47% 5%;
+    --foreground: 210 40% 96%;
 
-    --card: 0 0% 9%;
-    --card-foreground: 0 0% 96%;
+    --card: 222 40% 8%;
+    --card-foreground: 210 40% 96%;
 
-    --popover: 0 0% 9%;
-    --popover-foreground: 0 0% 96%;
+    --popover: 222 40% 8%;
+    --popover-foreground: 210 40% 96%;
 
     --primary: 217 91% 60%;
-    --primary-foreground: 0 0% 96%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 0 0% 96%;
+    --secondary: 222 35% 12%;
+    --secondary-foreground: 210 40% 90%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 40%;
+    --muted: 222 35% 12%;
+    --muted-foreground: 215 20% 45%;
 
-    --accent: 35 82% 55%;
-    --accent-foreground: 0 0% 96%;
+    --accent: 199 89% 48%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 96%;
 
-    --border: 0 0% 15%;
-    --input: 0 0% 15%;
+    --border: 222 30% 16%;
+    --input: 222 30% 16%;
     --ring: 217 91% 60%;
 
     --chart-1: 217 91% 60%;
@@ -52,32 +52,32 @@
   }
 
   .dark {
-    --background: 0 0% 7%;
-    --foreground: 0 0% 96%;
+    --background: 222 47% 5%;
+    --foreground: 210 40% 96%;
 
-    --card: 0 0% 9%;
-    --card-foreground: 0 0% 96%;
+    --card: 222 40% 8%;
+    --card-foreground: 210 40% 96%;
 
-    --popover: 0 0% 9%;
-    --popover-foreground: 0 0% 96%;
+    --popover: 222 40% 8%;
+    --popover-foreground: 210 40% 96%;
 
     --primary: 217 91% 60%;
-    --primary-foreground: 0 0% 96%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 0 0% 96%;
+    --secondary: 222 35% 12%;
+    --secondary-foreground: 210 40% 90%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 40%;
+    --muted: 222 35% 12%;
+    --muted-foreground: 215 20% 45%;
 
-    --accent: 35 82% 55%;
-    --accent-foreground: 0 0% 96%;
+    --accent: 199 89% 48%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62% 30%;
     --destructive-foreground: 0 0% 96%;
 
-    --border: 0 0% 15%;
-    --input: 0 0% 15%;
+    --border: 222 30% 16%;
+    --input: 222 30% 16%;
     --ring: 217 91% 60%;
 
     --sidebar-background: 240 5.9% 10%;
@@ -94,7 +94,6 @@
 @layer base {
   * {
     @apply border-border;
-    cursor: none;
   }
 
   body {
